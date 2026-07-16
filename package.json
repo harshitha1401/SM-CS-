@@ -1,0 +1,23 @@
+{
+  "name": "text-encryption-app",
+  "version": "1.0.0",
+  "description": "A simple text encryption and decryption application using AES-256-CBC.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "encryption",
+    "cryptography",
+    "aes-256-cbc",
+    "nodejs",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
