@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.35);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #dbeafe;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#encryptBtn {
+    background: #16a34a;
+    color: white;
+}
+
+#encryptBtn:hover {
+    background: #15803d;
+}
+
+#decryptBtn {
+    background: #2563eb;
+    color: white;
+}
+
+#decryptBtn:hover {
+    background: #1d4ed8;
+}
+
+#clearBtn {
+    background: #dc2626;
+    color: white;
+}
+
+#clearBtn:hover {
+    background: #b91c1c;
+}
+
+#copyBtn {
+    width: 100%;
+    background: #f59e0b;
+    color: white;
+}
+
+#copyBtn:hover {
+    background: #d97706;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #cbd5e1;
+}
