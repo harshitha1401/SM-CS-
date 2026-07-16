@@ -1,0 +1,22 @@
+{
+  "name": "keyboard-event-monitor",
+  "version": "1.0.0",
+  "description": "Educational Keyboard Event Monitor built using Node.js and Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "keyboard",
+    "events",
+    "nodejs",
+    "express",
+    "education"
+  ],
+  "author": "Harshitha",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
